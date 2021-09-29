@@ -25,8 +25,8 @@ function getUsers() {
 
 function findUser(lastName, gender) {
   try {
-    var iFindUser = "";
     var user = _.find(users, { lastName: lastName, gender: gender });
+    var iFindUser = "";
 
     iFindUser =
       user.firstName +
