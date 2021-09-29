@@ -1,12 +1,13 @@
-const array1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let foo = 12,
+  boo = 45;
 
-function removeFirstTwo(list) {
-  "use strict";
+function main(foo, boo) {
+  // Only change code below this line
+  [foo, boo] = [boo, foo];
 
-  const [, , ...array2] = list;
-
-  return array2;
+  // Only change code above this line
+  return { foo, boo };
 }
 
-console.log(removeFirstTwo(array1));
-module.exports = removeFirstTwo;
+console.log(main(foo, boo));
+module.exports = main;
