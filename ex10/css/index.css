@@ -125,12 +125,13 @@ h1 {
   font-weight: 200;
 }
 
+#showcase {
+  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+}
+
 #showcase-content {
   display: flex;
   width: 700px;
   flex-direction: column;
   align-items: center;
-}
-#showcase {
-  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
 }
